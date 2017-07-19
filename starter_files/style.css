@@ -13,34 +13,40 @@ colors:
     dark blue - #046c97
 */
 
+/*sets font types for main content; appears to be one font throughout page*/
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
 
+/*blue coloring for common text element including headers*/
 h2, h3, p > a {
   color: #1fabe5;
 }
 
+/*adds bold styling to unordered list*/
 ul > li {
   font-weight: bold;
 }
 
+/*adds orange background color with padding to create space around logo and buttons*/
 #site_header {
   background-color: #ff8523;
   padding: 20px 20px 35px 20px;
 }
 
+/*this #logo style did not end up necessary when adding margins and padding to the other header elements*/
 #logo {
   /*padding-bottom: 200px;*/
 }
 
+/*adds space between buttons and logo*/
 .main_navigation {
   /*margin: 20px 0px 20px 0px;*/
   margin-top: 20px;
-
 }
 
+/*adds styling to navigation buttons including white font and round borders*/
 .main_navigation > a {
   color: white;
   text-decoration: none;
@@ -49,6 +55,7 @@ ul > li {
   padding: 10px 30px;
 }
 
+/*adds horizontal rule between main page sections*/
 section {
   border-bottom: 2px solid #dddddd;
   padding-bottom: 20px;

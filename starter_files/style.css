@@ -93,6 +93,7 @@ td > img {
   width: 40%;
 }
 
+/*add gray background and round corners to form*/
 form {
   margin: 10px;
   background-color: #dddddd;
@@ -100,6 +101,7 @@ form {
   border-radius: 5px;
 }
 
+/*add orange background, white text, round corners to name field*/
 div.name {
   background-color: #ff8523;
   color: white;
@@ -109,14 +111,17 @@ div.name {
   margin-bottom: 30px;
 }
 
+/*add space after breed field*/
 div.city_container {
   margin-bottom: 30px;
 }
 
+/*make breed and puppies text bold*/
 [for="city"], [for="bio"] {
   font-weight: bold;
 }
 
+/*formatting to submit button*/
 #submit_button {
   background-color: #1fabe5;
   color: white;
@@ -129,14 +134,16 @@ div.city_container {
   margin-top: 10px;
 }
 
+/*change size of name fields*/
 input[type=text] {
   width: 30%;
   height: 40px;
   margin-right: 20px;
 }
 
+/*change size of text block field*/
 textarea {
-  width: 100%;
+  width: 90%;
   height: 200px;
   border: 1px solid #1fabe5;
   padding: 10px;

@@ -61,30 +61,32 @@ section {
   padding-bottom: 20px;
 }
 
+/*collapse table rows to avoid double borders; trying to auto fit content to table but not working yet*/
 table {
   border-collapse: collapse;
   table-layout: auto;
   width: 100%;
 }
 
+/*adds padding to table headers and table data*/
 th, td {
   /*border: 1px solid #1fabe5;*/
   padding: 15px;
 }
 
+/*applies dark blue line/background/white text to first row/header of table*/
 thead > tr > td {
   border: 2px solid #046c97;
-}
-
-thead {
   background-color: #1fabe5;
   color: white;
 }
 
+/*adds light blue outline to rest of cells*/
 tbody, td {
   border: 2px solid #1fabe5;
 }
 
+/*change the size of the image*/
 td > img {
   width: 40%;
 }

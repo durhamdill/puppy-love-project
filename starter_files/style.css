@@ -57,6 +57,34 @@ ul > li {
 
 /*adds horizontal rule between main page sections*/
 section {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 4px solid #dddddd;
   padding-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+}
+
+th, td {
+  /*border: 1px solid #1fabe5;*/
+  padding: 15px;
+}
+
+thead > tr > td {
+  border: 2px solid #046c97;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: white;
+}
+
+tbody, td {
+  border: 2px solid #1fabe5;
+}
+
+td > img {
+  width: 40%;
 }

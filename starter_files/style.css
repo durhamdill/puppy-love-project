@@ -17,3 +17,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
+
+h2, h3, p > a {
+  color: #1fabe5;
+}
+
+ul > li {
+  font-weight: bold;
+}

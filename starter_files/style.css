@@ -61,6 +61,7 @@ section {
   border-bottom: 4px solid #dddddd;
   padding-bottom: 20px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*collapse table rows to avoid double borders; trying to auto fit content to table but not working yet*/
@@ -90,7 +91,13 @@ tbody, td {
 
 /*change the size of the image*/
 td > img {
-  width: 40%;
+  width: 50px;
+}
+
+/*reduce space of second column to fit image size*/
+tr td:nth-child(2){
+    width:1%;
+    white-space:nowrap;
 }
 
 /*add gray background and round corners to form*/

@@ -12,3 +12,8 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
